@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "baseUrl": "src/ts",
+    "inlineSources": false,
+    "sourceMap": false,
+    "removeComments": true,
+    "declaration": false,
+    "esModuleInterop": true
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
