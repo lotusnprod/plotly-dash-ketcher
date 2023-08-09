@@ -7,9 +7,9 @@ with `npm run buld`
 and you can then copy the `plotly_dash_ketcher` directory 
 in your app.
 
-I'll find out how to publish it soon.
+You NEED to use React 18. You can either set the environment variable REACT_VERSION=18.2.0 before running your app, or inside the app call dash._dash_renderer._set_react_version("18.2.0"). (this is still experimental in dash be careful)
 
-## Install (NOT YET!)
+## Install
 
 ```shell
 pip install plotly_dash_ketcher
